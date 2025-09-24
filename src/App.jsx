@@ -2,12 +2,16 @@
 import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Sidebar from "./components/Sidebar";
 
 function App() {
   return (
     <div className="relative min-h-screen bg-gray-100">
       {/* Header */}
       <Header />
+
+      {/* Sidebar */}
+      <Sidebar />
 
       {/* Hero avec image de fond */}
       <Hero />
