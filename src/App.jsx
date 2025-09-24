@@ -1,12 +1,16 @@
 // App.jsx
 import React from "react";
 import Header from "./components/Header";
+import Hero from "./components/Hero";
 
 function App() {
   return (
     <div className="relative min-h-screen bg-gray-100">
       {/* Header */}
       <Header />
+
+      {/* Hero avec image de fond */}
+      <Hero />
 
       {/* Contenu de la page */}
       <main className="pt-20">
