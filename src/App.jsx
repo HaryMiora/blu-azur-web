@@ -3,6 +3,7 @@ import React from "react";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
+import AboutAzur from "./components/AboutAzur";
 
 function App() {
   return (
@@ -18,6 +19,9 @@ function App() {
 
       {/* Contenu de la page */}
       <main className="pt-20">
+
+        <AboutAzur />
+        
         <section id="about" className="h-screen bg-blue-200 flex items-center justify-center">
           <h1 className="text-4xl">Section À propos</h1>
         </section>
