@@ -5,6 +5,7 @@ import diversity2 from "../assets/images/diversity2.png"; // sport
 import diversity3 from "../assets/images/diversity3.jpg"; // destination
 import diversity4 from "../assets/images/diversity4.jpg"; // expérience famille
 import diversity5 from "../assets/images/diversity5.png"; // évasion
+import diversity6 from "../assets/images/diversity6.png"; // image de fond
 
 const cards = [
   {
@@ -41,8 +42,16 @@ const cards = [
 
 const Diversite = () => {
   return (
-    <section className="bg-white py-16">
-      <div className="max-w-7xl mx-auto px-6 lg:px-12">
+    <section className="relative py-16">
+      {/* Image de fond */}
+      <img
+        src={diversity6}
+        alt="Fond Diversité"
+        className="absolute inset-0 w-full h-full object-cover opacity-30 z-0"
+      />
+
+      {/* Contenu */}
+      <div className="relative max-w-7xl mx-auto px-6 lg:px-12 z-10">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {cards.map((card) => (
             <div
