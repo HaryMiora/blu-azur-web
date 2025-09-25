@@ -6,6 +6,7 @@ import Sidebar from "./components/Sidebar";
 import AboutAzur from "./components/AboutAzur";
 import BestPlace from "./components/BestPlace";
 import LocationSection from "./components/Location";
+import StartingPoint from "./components/StartingPoint";
 
 function App() {
   return (
@@ -28,15 +29,8 @@ function App() {
 
         <LocationSection />
 
-        <section id="about" className="h-screen bg-blue-200 flex items-center justify-center">
-          <h1 className="text-4xl">Section À propos</h1>
-        </section>
-        <section id="location" className="h-screen bg-green-200 flex items-center justify-center">
-          <h1 className="text-4xl">Section Localisation</h1>
-        </section>
-        <section id="activities" className="h-screen bg-yellow-200 flex items-center justify-center">
-          <h1 className="text-4xl">Section Activités</h1>
-        </section>
+        <StartingPoint />
+
       </main>
     </div>
   );
