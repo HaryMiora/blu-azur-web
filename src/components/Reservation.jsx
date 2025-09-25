@@ -1,5 +1,7 @@
+// components/ReservationSection.jsx
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import reservation1 from '../assets/images/reservation1.png';
 
 const ReservationSection = () => {
   return (
@@ -8,12 +10,12 @@ const ReservationSection = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: `url('https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2080&q=80')`
+          backgroundImage: `url(${reservation1})`
         }}
       />
       
       {/* Superposition bleue semi-transparente */}
-      <div className="absolute inset-0 bg-blue-600 opacity-75"></div>
+      <div className="absolute inset-0 bg-blue-600 opacity-50"></div>
       
       {/* Contenu */}
       <div className="relative z-10 max-w-4xl mx-auto px-4 text-center">
