@@ -5,6 +5,7 @@ import Hero from "./components/Hero";
 import Sidebar from "./components/Sidebar";
 import AboutAzur from "./components/AboutAzur";
 import BestPlace from "./components/BestPlace";
+import LocationSection from "./components/Location";
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
         <AboutAzur />
 
         <BestPlace />
+
+        <LocationSection />
 
         <section id="about" className="h-screen bg-blue-200 flex items-center justify-center">
           <h1 className="text-4xl">Section À propos</h1>
