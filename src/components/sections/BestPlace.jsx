@@ -1,6 +1,6 @@
 // components/BestPlace.jsx
 import React from "react";
-import bestPlace1 from "../../assets/images/bestPlace/bestplace1.png";
+import bestPlace1 from "../../assets/images/bestPlace/bestPlace1.png";
 
 // Import des icônes personnalisées
 import icon1 from "../../assets/icones/bestPlace/icon1.png"; // sport
