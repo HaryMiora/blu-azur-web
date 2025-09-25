@@ -1,7 +1,7 @@
 // components/BestPlace.jsx
 import React from "react";
 import { FaSwimmer, FaHiking, FaDice, FaStore, FaGolfBall, FaMountain } from "react-icons/fa";
-import bgImage from "../assets/images/bestplace.png";
+import bestPlace1 from "../../assets/images/bestPlace/bestplace1.png";
 
 const BestPlace = () => {
   const activities = [
@@ -23,7 +23,7 @@ const BestPlace = () => {
       rgba(64,151,255,0.035) 50%, 
       rgba(64,151,255,0.018) 75%, 
       rgba(64,151,255,0.008) 100%
-    ), url(${bgImage})`,
+    ), url(${bestPlace1})`,
     backgroundSize: "cover",
     backgroundPosition: "center bottom",
   }}

@@ -1,11 +1,11 @@
 // components/AboutAzur.jsx
 import React from "react";
-import Carousel from "./Carousel";
-import img3 from "../assets/images/img3.png";
-import img4 from "../assets/images/img4.png";
+import Carousel from "../utils/Carousel";
+import carousel3 from "../../assets/images/carousel/carousel3.png";
+import carousel4 from "../../assets/images/carousel/carousel4.png";
 
 const AboutAzur = () => {
-  const images = [img3, img4];
+  const images = [carousel3, carousel4];
 
   return (
     <section

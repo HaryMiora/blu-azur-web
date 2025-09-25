@@ -1,7 +1,6 @@
-// components/StartingPoint.jsx
 import React from "react";
-import startingpoint1 from "../assets/images/startingpoint1.png"; // fond
-import startingpoint2 from "../assets/images/startingpoint2.png"; // image collage
+import startingpoint1 from "../../assets/images/startingPoint/startingPoint1.png"; 
+import startingpoint2 from "../../assets/images/startingPoint/startingPoint2.png";
 
 const StartingPoint = () => {
   return (

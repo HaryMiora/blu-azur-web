@@ -1,7 +1,7 @@
 // components/ReservationSection.jsx
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
-import reservation1 from '../assets/images/reservation1.png';
+import reservation1 from '../../assets/images/reservation/reservation1.png';
 
 const ReservationSection = () => {
   return (

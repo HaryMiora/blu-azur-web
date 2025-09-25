@@ -1,11 +1,11 @@
 // components/Diversite.jsx
 import React from "react";
-import diversity1 from "../assets/images/diversity1.jpg"; // patrimoine
-import diversity2 from "../assets/images/diversity2.png"; // sport
-import diversity3 from "../assets/images/diversity3.jpg"; // destination
-import diversity4 from "../assets/images/diversity4.jpg"; // expérience famille
-import diversity5 from "../assets/images/diversity5.png"; // évasion
-import diversity6 from "../assets/images/diversity6.png"; // image de fond
+import diversity1 from "../../assets/images/diversity/diversity1.jpg"; // patrimoine
+import diversity2 from "../../assets/images/diversity/diversity2.png"; // sport
+import diversity3 from "../../assets/images/diversity/diversity3.jpg"; // destination
+import diversity4 from "../../assets/images/diversity/diversity4.jpg"; // expérience famille
+import diversity5 from "../../assets/images/diversity/diversity5.png"; // évasion
+import diversity6 from "../../assets/images/diversity/diversity6.png"; // image de fond
 
 const cards = [
   {

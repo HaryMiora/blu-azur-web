@@ -1,15 +1,15 @@
 // App.jsx
 import React from "react";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Sidebar from "./components/Sidebar";
-import AboutAzur from "./components/AboutAzur";
-import BestPlace from "./components/BestPlace";
-import LocationSection from "./components/Location";
-import StartingPoint from "./components/StartingPoint";
-import Diversite from "./components/Diversite";
-import ReservationSection from "./components/Reservation";
-import Footer from "./components/Footer";
+import Header from "./components/layouts/Header";
+import Hero from "./components/sections/Hero";
+import Sidebar from "./components/layouts/Sidebar";
+import AboutAzur from "./components/sections/AboutAzur";
+import BestPlace from "./components/sections/BestPlace";
+import LocationSection from "./components/sections/Location";
+import StartingPoint from "./components/sections/StartingPoint";
+import Diversite from "./components/sections/Diversite";
+import ReservationSection from "./components/sections/Reservation";
+import Footer from "./components/layouts/Footer";
 
 function App() {
   return (

@@ -1,9 +1,9 @@
 // Hero.jsx
 import React, { useState } from "react";
 import { ArrowRight, ArrowLeft } from "lucide-react";
-import heroImage from "../assets/images/hero.png";
-import img1 from "../assets/images/img1.png";
-import img2 from "../assets/images/img2.png";
+import heroImage from "../../assets/images/hero/hero.png";
+import img1 from "../../assets/images/carousel/carousel1.png";
+import img2 from "../../assets/images/carousel/carousel2.png";
 
 const images = [img1, img2];
 

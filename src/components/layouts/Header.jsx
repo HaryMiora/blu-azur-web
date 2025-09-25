@@ -1,8 +1,8 @@
 // Header.jsx
 import React, { useState } from "react";
-import Logo from "./Logo";
-import NavLinks from "./NavLinks";
-import MobileMenu from "./MobileMenu";
+import Logo from "../utils/Logo";
+import NavLinks from "../utils/NavLinks";
+import MobileMenu from "../utils/MobileMenu";
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);

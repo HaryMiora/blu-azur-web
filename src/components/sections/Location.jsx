@@ -1,7 +1,7 @@
 import React from 'react';
 import { Info } from 'lucide-react';
-import location1 from '../assets/images/location1.png';
-import location2 from '../assets/images/location2.png';
+import location1 from '../../assets/images/location/location1.png';
+import location2 from '../../assets/images/location/location2.png';
 
 const LocationSection = () => {
   return (
