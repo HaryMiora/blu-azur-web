@@ -9,6 +9,7 @@ import LocationSection from "./components/Location";
 import StartingPoint from "./components/StartingPoint";
 import Diversite from "./components/Diversite";
 import ReservationSection from "./components/Reservation";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
 
       {/* Hero avec image de fond */}
       <Hero />
+
 
       {/* Contenu de la page */}
       <main className="pt-20">
@@ -36,7 +38,9 @@ function App() {
         <Diversite />
 
         <ReservationSection />
-        
+
+        <Footer />
+
       </main>
     </div>
   );
