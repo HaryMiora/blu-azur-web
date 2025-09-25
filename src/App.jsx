@@ -8,6 +8,7 @@ import BestPlace from "./components/BestPlace";
 import LocationSection from "./components/Location";
 import StartingPoint from "./components/StartingPoint";
 import Diversite from "./components/Diversite";
+import ReservationSection from "./components/Reservation";
 
 function App() {
   return (
@@ -34,6 +35,8 @@ function App() {
 
         <Diversite />
 
+        <ReservationSection />
+        
       </main>
     </div>
   );
