@@ -7,6 +7,7 @@ import AboutAzur from "./components/AboutAzur";
 import BestPlace from "./components/BestPlace";
 import LocationSection from "./components/Location";
 import StartingPoint from "./components/StartingPoint";
+import Diversite from "./components/Diversite";
 
 function App() {
   return (
@@ -30,6 +31,8 @@ function App() {
         <LocationSection />
 
         <StartingPoint />
+
+        <Diversite />
 
       </main>
     </div>
