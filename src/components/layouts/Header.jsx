@@ -1,4 +1,3 @@
-// Header.jsx
 import React, { useState } from "react";
 import Logo from "../utils/Logo";
 import NavLinks from "../utils/NavLinks";

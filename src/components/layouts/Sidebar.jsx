@@ -1,4 +1,3 @@
-// Sidebar.jsx
 import React from "react";
 import { Facebook, Youtube, Instagram, Twitter } from "lucide-react";
 

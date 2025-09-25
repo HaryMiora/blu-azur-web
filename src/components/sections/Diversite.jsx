@@ -1,12 +1,10 @@
-// components/Diversite.jsx
 import React from "react";
-// Assurez-vous que les chemins d'images sont corrects
-import diversity1 from "../../assets/images/diversity/diversity1.jpg"; // patrimoine
-import diversity2 from "../../assets/images/diversity/diversity2.png"; // sport
-import diversity3 from "../../assets/images/diversity/diversity3.jpg"; // destination
-import diversity4 from "../../assets/images/diversity/diversity4.jpg"; // expérience famille
-import diversity5 from "../../assets/images/diversity/diversity5.png"; // évasion
-import diversity6 from "../../assets/images/diversity/diversity6.png"; // image de fond
+import diversity1 from "../../assets/images/diversity/diversity1.png";
+import diversity2 from "../../assets/images/diversity/diversity2.png"; 
+import diversity3 from "../../assets/images/diversity/diversity3.png"; 
+import diversity4 from "../../assets/images/diversity/diversity4.png"; 
+import diversity5 from "../../assets/images/diversity/diversity5.png"; 
+import diversity6 from "../../assets/images/diversity/diversity6.png"; 
 
 const cards = [
   {
@@ -51,36 +49,35 @@ const cards = [
   },
 ];
 
-// Composant pour une carte simple
+
 const Card = ({ card }) => (
   <div
     className="relative rounded-2xl overflow-hidden shadow-xl h-[450px] lg:h-[300px]" 
   >
-    {/* Image en fond de la carte */}
+  
     <img
       src={card.img}
       alt={card.title}
       className="absolute inset-0 w-full h-full object-cover"
     />
 
-    {/* Calque de couleur noire avec dégradé pour le texte sur l'image */}
     <div className="absolute inset-0 bg-black/30 
       bg-gradient-to-t from-black/80 via-black/40 to-transparent"></div>
 
-    {/* Contenu - Texte en bas de l'image */}
+    
     <div className="relative p-6 h-full flex flex-col justify-end">
       <h3 className="text-white text-xl font-bold mb-3 leading-snug">
         {card.title}
       </h3>
-      {/* Texte descriptif */}
+      
       <p className="text-gray-200 text-sm mb-4 line-clamp-5">
         {card.text}
       </p>
       
-      {/* Bouton "À voir" / "En savoir plus" : Style conforme à la maquette */}
+      
       <a
         href={card.linkUrl}
-        // Bouton noir, bordure blanche, texte blanc, coins arrondis
+        
         className="inline-block mt-2 text-white font-medium 
           border border-white rounded-full px-6 py-2 text-xs 
           bg-black/50 backdrop-blur-sm 
@@ -99,24 +96,24 @@ const Diversite = () => {
 
   return (
     <section className="relative py-16 min-h-screen">
-      {/* Image de fond : Opacité augmentée de 10 à 30 */}
+      
       <img
         src={diversity6}
         alt="Fond Diversité"
         className="absolute inset-0 w-full h-full object-cover opacity-30 z-0" 
       />
 
-      {/* Contenu */}
+      
       <div className="relative max-w-7xl mx-auto px-6 lg:px-8 z-10">
         
-        {/* Ligne du haut (2 cartes) */}
+        
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           {topCards.map((card) => (
             <Card key={card.id} card={card} />
           ))}
         </div>
 
-        {/* Ligne du bas (3 cartes) */}
+        
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {bottomCards.map((card) => (
             <Card key={card.id} card={card} />

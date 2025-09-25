@@ -1,4 +1,3 @@
-// components/AboutAzur.jsx
 import React from "react";
 import Carousel from "../utils/Carousel";
 import carousel3 from "../../assets/images/carousel/carousel3.png";

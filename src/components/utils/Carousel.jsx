@@ -1,4 +1,3 @@
-// components/Carousel.jsx
 import React, { useState } from "react";
 import { ArrowLeft, ArrowRight } from "lucide-react";
 

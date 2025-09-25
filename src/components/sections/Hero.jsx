@@ -1,4 +1,3 @@
-// Hero.jsx
 import React, { useState } from "react";
 import { ArrowRight, ArrowLeft } from "lucide-react";
 import heroImage from "../../assets/images/hero/hero.png";

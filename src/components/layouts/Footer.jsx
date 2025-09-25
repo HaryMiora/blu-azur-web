@@ -1,5 +1,5 @@
 import React from "react";
-import bluazurLogo from "../../assets/logos/bluazur-logo.png"; // adapte le chemin si besoin
+import bluazurLogo from "../../assets/logos/bluazur-logo.png"; 
 
 const Footer = () => {
   return (

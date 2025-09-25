@@ -1,4 +1,3 @@
-// MobileMenu.jsx
 import React from "react";
 import NavLinks from "./NavLinks";
 

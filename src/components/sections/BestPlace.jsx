@@ -1,14 +1,11 @@
-// components/BestPlace.jsx
 import React from "react";
 import bestPlace1 from "../../assets/images/bestPlace/bestPlace1.png";
-
-// Import des icônes personnalisées
-import icon1 from "../../assets/icones/bestPlace/icon1.png"; // sport
-import icon2 from "../../assets/icones/bestPlace/icon2.png"; // randonnées
-import icon3 from "../../assets/icones/bestPlace/icon3.png"; // casino
-import icon4 from "../../assets/icones/bestPlace/icon4.png"; // villages
-import icon5 from "../../assets/icones/bestPlace/icon5.png"; // paradis
-import icon6 from "../../assets/icones/bestPlace/icon6.png"; // montagne
+import icon1 from "../../assets/icones/bestPlace/icon1.png"; 
+import icon2 from "../../assets/icones/bestPlace/icon2.png"; 
+import icon3 from "../../assets/icones/bestPlace/icon3.png"; 
+import icon4 from "../../assets/icones/bestPlace/icon4.png"; 
+import icon5 from "../../assets/icones/bestPlace/icon5.png"; 
+import icon6 from "../../assets/icones/bestPlace/icon6.png"; 
 
 const BestPlace = () => {
   const activities = [
