@@ -25,7 +25,7 @@ function App() {
 
 
       {/* Contenu de la page */}
-      <main className="pt-20">
+      <main>
 
         <AboutAzur />
 
